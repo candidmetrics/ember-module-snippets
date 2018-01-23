@@ -50,7 +50,6 @@
         "onLanguage:javascript",
         "workspaceContains:ember-cli-build.js"
       ],
-    "preview": true,
     "contributes": {
         "snippets": [
             {
