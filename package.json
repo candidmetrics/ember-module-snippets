@@ -34,7 +34,7 @@
     "version": "0.0.1",
     "publisher": "candidmetrics",
     "engines": {
-        "vscode": "^1.19.0"
+        "vscode": "^1.10.0"
     },
     "categories": [
         "Snippets"
@@ -55,7 +55,11 @@
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
-            }
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+              }
         ]
     }
 }
