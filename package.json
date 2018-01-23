@@ -18,6 +18,7 @@
             "url": "http://www.candidretail.com" 
          }
     ],
+    "icon": "Icon.png",
     "license": "MIT",
     "keywords": [
         "Ember.js",
