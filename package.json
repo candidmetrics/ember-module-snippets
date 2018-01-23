@@ -18,6 +18,7 @@
             "url": "http://www.candidretail.com" 
          }
     ],
+    "galleryBanner.color": "#ffffff",
     "icon": "Icon.png",
     "license": "MIT",
     "keywords": [
