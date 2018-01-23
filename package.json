@@ -1,0 +1,57 @@
+{
+    "name": "ember-module-snippets",
+    "displayName": "Ember Module Snippets",
+    "author": {
+       "name": "Avery Bloom",
+       "email": "avery@candidretail.com",
+       "url": "http://www.candidretail.com" 
+    },
+    "contributors": [
+        {
+            "name": "Avery Bloom",
+            "email": "avery@candidretail.com",
+            "url": "http://www.candidretail.com" 
+         },
+         {
+            "name": "Dave Lowensohn",
+            "email": "dave@candidretail.com",
+            "url": "http://www.candidretail.com" 
+         }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "Ember.js",
+        "Ember-CLI",
+        "Glimmer",
+        "Ember"
+      ],
+    "description": "Snippets to make importing Ember modules a snap in VSCode.",
+    "version": "0.0.1",
+    "publisher": "candidmetrics",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/candidmetrics/ember-module-snippets"
+      },
+    "bugs": {
+       "url": "https://github.com/candidmetrics/ember-module-snippets/issues"
+    },
+    "activationEvents": [
+        "onLanguage:javascript",
+        "workspaceContains:ember-cli-build.js"
+      ],
+    "preview": true,
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
