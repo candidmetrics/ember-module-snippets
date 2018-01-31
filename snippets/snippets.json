@@ -53,7 +53,7 @@
     },
     "Ember.inject.controller": {
       "prefix": "E.inject.controller",
-      "body": "import { inject }  from '@ember/controller';"
+      "body": "import { inject as controller }  from '@ember/controller';"
     },
     "Ember.Array": {
       "prefix": "E.Array",
@@ -533,7 +533,7 @@
     },
     "Ember.inject.service": {
       "prefix": "E.inject.service",
-      "body": "import { inject }  from '@ember/service';"
+      "body": "import { inject as service }  from '@ember/service';"
     },
     "Ember.String.camelize": {
       "prefix": "E.String.camelize",
