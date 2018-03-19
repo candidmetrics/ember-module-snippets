@@ -698,5 +698,9 @@
     "Ember.RSVP.Promise": {
       "prefix": "E:RSVP.Promise",
       "body": "import { Promise }  from 'rsvp';"
+    },
+    "Ember Super": {
+      "prefix": "E:super",
+      "body": "this._super(...arguments);"
     }
   }

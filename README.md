@@ -19,6 +19,9 @@ The data for these snippets is based on: https://github.com/ember-cli/ember-rfc1
 
 And the raw json version: https://github.com/ember-cli/ember-rfc176-data/blob/master/mappings.json
 
+Bonus Snippets:
+`E:super` = `this._super(...arguments);`
+
 ## Installation
 
 1. Install Visual Studio Code 1.10.0 or higher
