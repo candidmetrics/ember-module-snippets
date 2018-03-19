@@ -6,9 +6,12 @@ Snippets to make importing Ember modules a snap in VSCode.
 
 ![screenshot](images/ember-module-snippets-screen.gif)
 
-All of these snippets are preceeded by a `E.` (E-period)
 
-Where you might have in the past said `Ember.get`, with `ember-module-snippets` you can type `E.get` followed by `ctrl-space` to get these artisinal, grass-fed, snippets for Ember.js. Fuzzy matches work as expected (`E.bj` brings up `Ember.Object`, etc).
+NOTE: The prefix to trigger these snippets has changed from `E.` to `E:` due to changes to the way VSCode deals with the "." character.
+
+All of these snippets are preceeded by a `E:` (E-colon)
+
+Where you might have in the past said `Ember.get`, with `ember-module-snippets` you can type `E:get` followed by `ctrl-space` to get these artisinal, grass-fed, snippets for Ember.js. Fuzzy matches work as expected (`E:bj` brings up `Ember.Object`, etc).
 
 The [Ember.js Module Unification](https://github.com/emberjs/rfcs/blob/master/text/0143-module-unification.md) project is an important precursor to unlocking a good bit of future functionality.
 
