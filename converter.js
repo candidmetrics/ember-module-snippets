@@ -10,7 +10,7 @@ raw.forEach( mapping =>{
     if(deprecated === false){
       snips[global] = {};
       snips[global]["prefix"] = global.replace("Ember.", "E:");
-      snips[global]["body"] = `import ${ localName != null ? localName : `{ ${exp} } `} from '${module}';`
+      snips[global]["body"] = `import ${ localName != null ? localName : `{ ${exp} }`} from '${module}';`
     }
 });
 
