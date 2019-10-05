@@ -3,19 +3,19 @@
     "displayName": "Ember Module Snippets",
     "author": {
         "name": "Avery Bloom",
-        "email": "avery@candidretail.com",
-        "url": "http://www.candidretail.com"
+        "email": "avery@candidwholesale.com",
+        "url": "http://www.candidwholesale.com"
     },
     "contributors": [
         {
             "name": "Avery Bloom",
-            "email": "avery@candidretail.com",
-            "url": "http://www.candidretail.com"
+            "email": "avery@candidwholesale.com",
+            "url": "http://www.candidwholesale.com"
         },
         {
             "name": "Dave Lowensohn",
-            "email": "dave@candidretail.com",
-            "url": "http://www.candidretail.com"
+            "email": "dave@candidwholesale.com",
+            "url": "http://www.candidwholesale.com"
         }
     ],
     "galleryBanner": {
@@ -31,7 +31,7 @@
         "Ember"
     ],
     "description": "Snippets to make importing Ember modules a snap in VSCode.",
-    "version": "1.1.0",
+    "version": "1.3.12",
     "publisher": "candidmetrics",
     "engines": {
         "vscode": "^1.5.0"
@@ -77,5 +77,8 @@
                 "path": "./snippets/snippets.json"
             }
         ]
+    },
+    "dependencies": {
+        "axios": "^0.16.2"
     }
 }
