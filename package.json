@@ -79,6 +79,6 @@
         ]
     },
     "dependencies": {
-        "axios": "^0.16.2"
+        "axios": "^0.18.1"
     }
 }
