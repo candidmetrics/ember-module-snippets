@@ -770,5 +770,173 @@
   "Ember.RSVP.resolve": {
     "prefix": "E:RSVP.resolve",
     "body": "import { resolve } from 'rsvp';"
+  },
+  "Ember.setResolver": {
+    "prefix": "E:setResolver",
+    "body": "import { setResolver } from '@ember/test-helpers'"
+  },
+  "Ember.getResolver": {
+    "prefix": "E:getResolver",
+    "body": "import { getResolver } from '@ember/test-helpers'"
+  },
+  "Ember.getApplication": {
+    "prefix": "E:getApplication",
+    "body": "import { getApplication } from '@ember/test-helpers'"
+  },
+  "Ember.setApplication": {
+    "prefix": "E:setApplication",
+    "body": "import { setApplication } from '@ember/test-helpers'"
+  },
+  "Ember.setupContext": {
+    "prefix": "E:setupContext",
+    "body": "import { setupContext } from '@ember/test-helpers'"
+  },
+  "Ember.getContext": {
+    "prefix": "E:getContext",
+    "body": "import { getContext } from '@ember/test-helpers'"
+  },
+  "Ember.setContext": {
+    "prefix": "E:setContext",
+    "body": "import { setContext } from '@ember/test-helpers'"
+  },
+  "Ember.unsetContext": {
+    "prefix": "E:unsetContext",
+    "body": "import { unsetContext } from '@ember/test-helpers'"
+  },
+  "Ember.pauseTest": {
+    "prefix": "E:pauseTest",
+    "body": "import { pauseTest } from '@ember/test-helpers'"
+  },
+  "Ember.resumeTest": {
+    "prefix": "E:resumeTest",
+    "body": "import { resumeTest } from '@ember/test-helpers'"
+  },
+  "Ember.teardownContext": {
+    "prefix": "E:teardownContext",
+    "body": "import { teardownContext } from '@ember/test-helpers'"
+  },
+  "Ember.setupRenderingContext": {
+    "prefix": "E:setupRenderingContext",
+    "body": "import { setupRenderingContext } from '@ember/test-helpers'"
+  },
+  "Ember.render": {
+    "prefix": "E:render",
+    "body": "import { render } from '@ember/test-helpers'"
+  },
+  "Ember.clearRender": {
+    "prefix": "E:clearRender",
+    "body": "import { clearRender } from '@ember/test-helpers'"
+  },
+  "Ember.teardownRenderingContext": {
+    "prefix": "E:teardownRenderingContext",
+    "body": "import { teardownRenderingContext } from '@ember/test-helpers'"
+  },
+  "Ember.setupApplicationContext": {
+    "prefix": "E:setupApplicationContext",
+    "body": "import { setupApplicationContext } from '@ember/test-helpers'"
+  },
+  "Ember.visit": {
+    "prefix": "E:visit",
+    "body": "import { visit } from '@ember/test-helpers'"
+  },
+  "Ember.currentRouteName": {
+    "prefix": "E:currentRouteName",
+    "body": "import { currentRouteName } from '@ember/test-helpers'"
+  },
+  "Ember.currentURL": {
+    "prefix": "E:currentURL",
+    "body": "import { currentURL } from '@ember/test-helpers'"
+  },
+  "Ember.teardownApplicationContext": {
+    "prefix": "E:teardownApplicationContext",
+    "body": "import { teardownApplicationContext } from '@ember/test-helpers'"
+  },
+  "Ember.settled": {
+    "prefix": "E:settled",
+    "body": "import { settled } from '@ember/test-helpers'"
+  },
+  "Ember.isSettled": {
+    "prefix": "E:isSettled",
+    "body": "import { isSettled } from '@ember/test-helpers'"
+  },
+  "Ember.getSettledState": {
+    "prefix": "E:getSettledState",
+    "body": "import { getSettledState } from '@ember/test-helpers'"
+  },
+  "Ember.waitUntil": {
+    "prefix": "E:waitUntil",
+    "body": "import { waitUntil } from '@ember/test-helpers'"
+  },
+  "Ember.validateErrorHandler": {
+    "prefix": "E:validateErrorHandler",
+    "body": "import { validateErrorHandler } from '@ember/test-helpers'"
+  },
+  "Ember.setupOnerror": {
+    "prefix": "E:setupOnerror",
+    "body": "import { setupOnerror } from '@ember/test-helpers'"
+  },
+  "Ember.resetOnerror": {
+    "prefix": "E:resetOnerror",
+    "body": "import { resetOnerror } from '@ember/test-helpers'"
+  },
+  "Ember.getDebugInfo": {
+    "prefix": "E:getDebugInfo",
+    "body": "import { getDebugInfo } from '@ember/test-helpers'"
+  },
+  "Ember.registerDebugInfoHelper": {
+    "prefix": "E:registerDebugInfoHelper",
+    "body": "import { registerDebugInfoHelper } from '@ember/test-helpers'"
+  },
+  "Ember.click": {
+    "prefix": "E:click",
+    "body": "import { click } from '@ember/test-helpers'"
+  },
+  "Ember.doubleClick": {
+    "prefix": "E:doubleClick",
+    "body": "import { doubleClick } from '@ember/test-helpers'"
+  },
+  "Ember.tap": {
+    "prefix": "E:tap",
+    "body": "import { tap } from '@ember/test-helpers'"
+  },
+  "Ember.focus": {
+    "prefix": "E:focus",
+    "body": "import { focus } from '@ember/test-helpers'"
+  },
+  "Ember.blur": {
+    "prefix": "E:blur",
+    "body": "import { blur } from '@ember/test-helpers'"
+  },
+  "Ember.triggerEvent": {
+    "prefix": "E:triggerEvent",
+    "body": "import { triggerEvent } from '@ember/test-helpers'"
+  },
+  "Ember.triggerKeyEvent": {
+    "prefix": "E:triggerKeyEvent",
+    "body": "import { triggerKeyEvent } from '@ember/test-helpers'"
+  },
+  "Ember.fillIn": {
+    "prefix": "E:fillIn",
+    "body": "import { fillIn } from '@ember/test-helpers'"
+  },
+  "Ember.waitFor": {
+    "prefix": "E:waitFor",
+    "body": "import { waitFor } from '@ember/test-helpers'"
+  },
+  "Ember.getRootElement": {
+    "prefix": "E:getRootElement",
+    "body": "import { getRootElement } from '@ember/test-helpers'"
+  },
+  "Ember.find": {
+    "prefix": "E:find",
+    "body": "import { find } from '@ember/test-helpers'"
+  },
+  "Ember.findAll": {
+    "prefix": "E:findAll",
+    "body": "import { findAll } from '@ember/test-helpers'"
+  },
+  "Ember.typeIn": {
+    "prefix": "E:typeIn",
+    "body": "import { typeIn } from '@ember/test-helpers'"
   }
 }

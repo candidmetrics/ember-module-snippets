@@ -15,12 +15,19 @@ Where you might have in the past said `Ember.get`, with `ember-module-snippets` 
 
 The [Ember.js Module Unification](https://github.com/emberjs/rfcs/blob/master/text/0143-module-unification.md) project is an important precursor to unlocking a good bit of future functionality.
 
-The data for these snippets is based on: https://github.com/ember-cli/ember-rfc176-data
+The data for these snippets is based on: https://github.com/ember-cli/ember-rfc176-data The version of this extension is based on https://github.com/ember-cli/ember-rfc176-data/releases
 
 And the raw json version: https://github.com/ember-cli/ember-rfc176-data/blob/master/mappings.json
 
 Bonus Snippets:
 `E:super` = `this._super(...arguments);`
+
+Imports from `@ember/test-helpers`
+
+## Running conversion script locally
+1. Clone repo
+1. `npm i`
+1. `node converter.js`
 
 ## Installation
 

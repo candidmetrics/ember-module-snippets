@@ -31,7 +31,7 @@
         "Ember"
     ],
     "description": "Snippets to make importing Ember modules a snap in VSCode.",
-    "version": "1.3.12",
+    "version": "1.3.121",
     "publisher": "candidmetrics",
     "engines": {
         "vscode": "^1.5.0"
@@ -79,6 +79,6 @@
         ]
     },
     "dependencies": {
-        "axios": "^0.16.2"
+        "axios": "^0.18.1"
     }
 }
